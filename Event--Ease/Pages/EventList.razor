@@ -1,0 +1,21 @@
+@page "/eventlist"
+
+<h1>Event List Page</h1>
+@* Use virtualization for performance optimization *@
+<Virtualize Items="events">
+
+   <div class="event-item">
+    
+      <h3>Name:@item.Name</h3>
+      <p>Date: @item.Date.ToShortDateString()</p>
+      <p>Location: @item.Location</p>
+   </div>
+</Virtualize>
+
+@code {
+   private List<EventModel> events = new()
+   {
+      new EventModel { Name = "Corporate Gala", Date = DateTime.Now.AddDays(30), Location = "Downtown Convention Center" },
+      new EventModel { Name = "Networking Night", Date = DateTime.Now.AddDays(15), Location = "City Hall" }
+   };
+}

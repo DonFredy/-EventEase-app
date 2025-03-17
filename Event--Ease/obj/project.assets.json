@@ -1763,11 +1763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\windo\\Desktop\\-EventEase-app\\-EventEase-app\\Event--Ease\\Event--Ease.csproj",
+      "projectUniqueName": "C:\\Users\\windo\\Desktop\\EventEase-app\\Event--Ease\\Event--Ease.csproj",
       "projectName": "Event--Ease",
-      "projectPath": "C:\\Users\\windo\\Desktop\\-EventEase-app\\-EventEase-app\\Event--Ease\\Event--Ease.csproj",
+      "projectPath": "C:\\Users\\windo\\Desktop\\EventEase-app\\Event--Ease\\Event--Ease.csproj",
       "packagesPath": "C:\\Users\\windo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\windo\\Desktop\\-EventEase-app\\-EventEase-app\\Event--Ease\\obj\\",
+      "outputPath": "C:\\Users\\windo\\Desktop\\EventEase-app\\Event--Ease\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

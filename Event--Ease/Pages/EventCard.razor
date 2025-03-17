@@ -1,0 +1,13 @@
+@page "/eventcard"
+
+<div class="event-card">
+   <h3>@EventName</h3>
+   <p>Date: @EventDate.ToShortDateString()</p>
+   <p>Location: @Location</p>
+</div>
+
+@code {
+   [Parameter] public string? EventName { get; set; }
+   [Parameter] public DateTime EventDate { get; set; }
+   [Parameter] public string? Location { get; set; }
+}

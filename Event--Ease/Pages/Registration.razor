@@ -1,0 +1,25 @@
+@page "/registration"
+
+<h1>Registration Form</h1>
+<input type="text" @bind="userName" placeholder="Enter your name" />
+<input type="email" @bind="userEmail" placeholder="Enter your email" />
+<button @onclick="RegisterUser">Register</button>
+<p>@registrationStatus</p>
+
+@code {
+   private string? userName;
+   private string? userEmail;
+   private string? registrationStatus;
+
+   private void RegisterUser()
+   {
+      if (!string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(userEmail))
+      {
+         registrationStatus = "Registration successful!";
+      }
+      else
+      {
+         registrationStatus = "Please complete all fields.";
+      }
+   }
+}
